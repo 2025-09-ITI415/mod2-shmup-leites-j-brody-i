@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e58b265a06034356b13ba5ddb7c9c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 60
+  speed: 45
   rollMult: -60
   pitchMult: 60
   projectilePrefab: {fileID: 8884485313326729009, guid: 93cdb1254cc5842aeb5402d7b9f73a99, type: 3}
@@ -529,7 +529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabEnemies:
   - {fileID: 2081532115668943053, guid: 9c29a07279b374e2aaf7a015da15211e, type: 3}
-  enemySpawnPerSecond: 1.25
+  enemySpawnPerSecond: 3
   enemyInsetDefault: 1.5
   gameRestartDelay: 2
 --- !u!114 &963194230
