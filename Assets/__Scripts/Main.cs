@@ -117,6 +117,17 @@ public class Main : MonoBehaviour
     /// <param name="e"The Enemy that was destroyed</param
     static public void SHIP_DESTROYED(Enemy e)
     {
+        // UPDATED SECTION FOR DIFFICULTYMANAGER
+
+        // Notify the DifficultyManager that an enemy was destroyed
+        // We check if it exists first, just in case.
+        if (DifficultyManager.S != null)
+        {
+            DifficultyManager.S.HandleEnemyDestroyed();
+        }
+
+        // UPDATED SECTION FOR DIFFICULTYMANAGER^
+        
         // Potentially generate a PowerUp
         if (Random.value <= e.powerUpDropChance)
         { // Underlined red for now  // c

@@ -215,8 +215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 500addfa4d1d3d349a9baa78fc599609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  killsForSpawnRateIncrease: 10
-  spawnRateIncreaseAmount: 0.1
+  killsForSpawnRateIncrease: 3
+  spawnRateIncreaseAmount: 0.5
   maxSpawnRate: 5
 --- !u!4 &140875818
 Transform:
